@@ -2,7 +2,7 @@
 
 Grid image CollectionView Sample
 
-![image-center](https://sunidev.github.io/assets/images/210113/make-gridcollectionview-sample.PNG){: .align-center}
+![image-center](https://sunidev.github.io/assets/images/210113/make-gridcollectionview-sample.PNG)
 
 
 
