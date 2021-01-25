@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8691B76525BA6DDB000734BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691B76425BA6DDB000734BB /* MainViewController.swift */; };
 		A022015425AD68ED005D58AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A022015325AD68ED005D58AD /* AppDelegate.swift */; };
 		A022015825AD68ED005D58AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A022015725AD68ED005D58AD /* ViewController.swift */; };
 		A022015B25AD68ED005D58AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A022015925AD68ED005D58AD /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8691B76425BA6DDB000734BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A022015025AD68ED005D58AD /* SNCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A022015325AD68ED005D58AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A022015725AD68ED005D58AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,23 +76,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8691B75F25BA6DB6000734BB /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				8691B76C25BA956E000734BB /* Cell */,
-				8691B76425BA6DDB000734BB /* MainViewController.swift */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
 		8691B76325BA6DBD000734BB /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		8691B76C25BA956E000734BB /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -125,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				8691B76325BA6DBD000734BB /* Cell */,
-				8691B75F25BA6DB6000734BB /* Main */,
 				A022015325AD68ED005D58AD /* AppDelegate.swift */,
 				A022015725AD68ED005D58AD /* ViewController.swift */,
 				A022018F25AD7378005D58AD /* GridCollectionViewCell.swift */,
@@ -288,7 +269,6 @@
 				A022019025AD7378005D58AD /* GridCollectionViewCell.swift in Sources */,
 				A022015825AD68ED005D58AD /* ViewController.swift in Sources */,
 				A022015425AD68ED005D58AD /* AppDelegate.swift in Sources */,
-				8691B76525BA6DDB000734BB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

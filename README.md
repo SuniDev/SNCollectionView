@@ -1,7 +1,8 @@
-# SNGridCollectionView
+# SNCollectionView
 
-Grid image CollectionView Sample
+CollectionView Sample
 
+## step1. GridCollectionView
 ![image-center](https://sunidev.github.io/assets/images/210113/make-gridcollectionview-sample.PNG)
 
 
