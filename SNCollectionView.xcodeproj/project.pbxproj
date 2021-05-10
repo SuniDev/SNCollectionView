@@ -79,6 +79,7 @@
 		8691B76325BA6DBD000734BB /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				A022018F25AD7378005D58AD /* GridCollectionViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -109,7 +110,6 @@
 				8691B76325BA6DBD000734BB /* Cell */,
 				A022015325AD68ED005D58AD /* AppDelegate.swift */,
 				A022015725AD68ED005D58AD /* ViewController.swift */,
-				A022018F25AD7378005D58AD /* GridCollectionViewCell.swift */,
 				A022015925AD68ED005D58AD /* Main.storyboard */,
 				A022015C25AD68EF005D58AD /* Assets.xcassets */,
 				A022015E25AD68EF005D58AD /* LaunchScreen.storyboard */,
@@ -444,8 +444,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 545BNS7V4L;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SNCollectionView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,6 +454,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunidev.SNCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -464,8 +465,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 545BNS7V4L;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SNCollectionView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,6 +475,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunidev.SNCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
